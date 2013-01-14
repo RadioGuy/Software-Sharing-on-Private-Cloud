@@ -1,0 +1,7 @@
+# This is configuration file for the Cloud
+# configure the Cloud client and Server
+# Warning: Noobs are adviced to use their head before applying any random update
+reciever_port:8088
+reciever_ip:127.0.0.1
+ttl:4
+type:1
