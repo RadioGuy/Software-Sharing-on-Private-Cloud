@@ -1,0 +1,38 @@
+****************************************************************
+Compilation-
+****************************************************************
+1. To Compile GUI
+  eg,
+	gcc -o home home.c `pkg-config --libs --cflags gtk+-2.0`
+	gcc -o con confg.c `pkg-config --libs --cflags gtk+-2.0`
+	gcc -o node nodes.c `pkg-config --libs --cflags gtk+-2.0`
+	gcc -o soft soft_list.c `pkg-config --libs --cflags gtk+-2.0`
+2.  To Compile other source
+	eg,
+	gcc -o sender sender.c
+	gcc -o reciever reciever.c
+	gcc -o main cloud_main,c
+
+****************************************************************
+Execution (GUI)-
+****************************************************************
+1.  Run home 
+	eg,
+	./home
+
+******************************************************************
+Execution (Command Line)-
+*****************************************************************
+1.  Client-
+	Run main
+		Syntax-
+		./main send [software id] [argument1] [argument2]
+		eg,
+		./main send 42 4 6
+2.  Server-
+	Run main-
+		Syntax-
+		./main start
+
+********************************************************************
+	
